@@ -1,17 +1,8 @@
-#shell script for factorial of a number
-#factorial using for loop
-
-echo "Enter a Number"
-
-# Read the numner 
-read num
-
+echo "Factorial Number"
+read n
 fact=1
-
-for((i=2;i<=num;i++))
-{
-	fact=$((fact * i))
-}
-
-echo $fact
-
+    for((i=1;i<=n;i++))
+    do
+    fact=$((fact*i))
+    done
+        echo "$fact"

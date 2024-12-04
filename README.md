@@ -1,2 +1,2 @@
 # Operating-System
-To Store All OS program
+To Store All Shell program
